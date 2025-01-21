@@ -14,7 +14,7 @@ Setup:
 •	Bcryptjs
 •	Cors
 •	Axios
-•	react-toastify
+•	react-toastify  
 
 •	Start the Front-end in an integrated terminal using command – 
  npm run dev 
