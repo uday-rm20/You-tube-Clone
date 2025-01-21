@@ -1,0 +1,31 @@
+
+.home {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px 0 0px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 1024px) {
+    .home {
+        padding: 8px 0px; 
+        flex-direction: column; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .home {
+        padding: 5px 0px; 
+        flex-direction: column; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .home {
+        padding: 3px 0px; 
+        flex-direction: column; 
+    }
+}

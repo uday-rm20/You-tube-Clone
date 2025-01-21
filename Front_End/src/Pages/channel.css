@@ -1,0 +1,224 @@
+
+.profile {
+    display: flex;
+    width: 100%;
+    padding: 10px 13px 0 13px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.profile_Page {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    margin-left: 270px;
+    color: white;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_page_inactive {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    flex: 1;
+    color: white;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_Top_section {
+    width: 100%;
+    display: flex;
+    padding: 0 0 20px 0;
+}
+
+.profile_Top_section_profile {
+    width: 150px;
+    height: 150px;
+}
+
+.profile_top_section_img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.profile_top_section_about {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 0 10px;
+    width: 85%;
+}
+
+.profile_top_section_about_name {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.profile_top_section_info {
+    font-size: 16px;
+    color: gray;
+}
+
+.profile_videos {
+    width: 100%;
+}
+
+.profile_videos_title {
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: rgb(207, 206, 206);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.profileVideos {
+    display: flex;
+    gap: 10px;
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.profileVideo_block {
+    width: 210px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.profileVideo_block_thumbnail {
+    width: 100%;
+    height: 140px;
+}
+
+.profileVideo_block_thumbnail_img {
+    width: 100%;
+    height: 100%;
+}
+
+.profileVideo_block_detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profileVideo_block_detail_name {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profileVideo_block_detail_about {
+    color: gray;
+    font-size: 13px;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .profile_Page {
+        margin-left: 200px; 
+    }
+
+    .profile_Top_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile_Top_section_profile {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile_top_section_about_name {
+        font-size: 28px; 
+    }
+
+    .profile_videos_title {
+        font-size: 20px; 
+    }
+
+    .profileVideos {
+        gap: 20px;
+    }
+
+    .profileVideo_block {
+        width: 180px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .profile_Page {
+        margin-left: 0px; 
+        padding: 10px; 
+    }
+
+    .profile_Top_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile_Top_section_profile {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile_top_section_about_name {
+        font-size: 24px; 
+    }
+
+    .profile_top_section_info {
+        font-size: 14px; 
+    }
+
+    .profile_videos_title {
+        font-size: 18px; 
+    }
+
+    .profileVideos {
+        gap: 15px;
+    }
+
+    .profileVideo_block {
+        width: 150px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .profile_Top_section_profile {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile_top_section_about_name {
+        font-size: 20px; 
+    }
+
+    .profile_videos_title {
+        font-size: 16px; 
+    }
+
+    .profileVideo_block {
+        width: 130px; 
+    }
+
+    .profileVideos {
+        gap: 10px;
+    }
+
+    .profile_top_section_info {
+        font-size: 12px; 
+    }
+}

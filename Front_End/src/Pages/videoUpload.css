@@ -1,0 +1,159 @@
+
+.videoUpload {
+    padding-top: 56px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92vh;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+}
+
+.uploadBox {
+    width: 45%;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0.5px 0.5px 8px white;
+    padding: 25px;
+}
+
+.uploadVideoTitle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.uploadForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.uploadFormInputs {
+    width: 70%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box;
+    background-color: #222222;
+    border: none;
+    border-radius: 5px;
+}
+
+.uploadbutton {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.uploadbtn-form {
+    padding: 10px 20px;
+    border: 1px solid;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.uploadbtn-form:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media (max-width: 1024px) {
+    .uploadBox {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .uploadVideoTitle {
+        font-size: 24px;
+    }
+
+    .uploadFormInputs {
+        width: 80%;
+    }
+
+    .uploadbtn-form {
+        font-size: 16px;
+    }
+
+    .uploadbutton {
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .uploadBox {
+        width: 75%;
+        padding: 15px;
+    }
+
+    .uploadVideoTitle {
+        font-size: 22px;
+    }
+
+    .uploadForm {
+        gap: 20px;
+    }
+
+    .uploadFormInputs {
+        width: 90%;
+        height: 40px;
+    }
+
+    .uploadbtn-form {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .uploadbutton {
+        gap: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .uploadBox {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .uploadVideoTitle {
+        font-size: 18px;
+    }
+
+    .uploadForm {
+        gap: 15px;
+    }
+
+    .uploadFormInputs {
+        width: 100%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .uploadbtn-form {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .uploadbutton {
+        gap: 10px;
+    }
+}
