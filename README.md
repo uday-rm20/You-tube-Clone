@@ -11,7 +11,7 @@ Inside the .env file, you'll add the necessary environment variables for the bac
 install mongodb locally and after installing, ensure MongoDB is running locally by executing momgosh.exe  in the terminal
 After setting up the .env file and ensuring MongoDB is running, now run the back end using command 
 npm start // if nodemomn is installed 
-or 
+or   
 node server,js
 
    
