@@ -5,20 +5,20 @@ To get the backend of the project running locally and interact with the database
 1)clone the repository to your local machine
 2)Navigate to the backend directory of the project and install the required dependencies (and npm install)
 3)setting up your environment variables - .env file 
-   To make the backend work locally, you need to create a .env file to store sensitive information like the MongoDB connection string, JWT secret key, etc.
-   Create a .env file in the root of the backend directory. 
-   Inside the .env file, you'll add the necessary environment variables for the backend to connect to the database and handle authentication.
-   install mongodb locally and after installing, ensure MongoDB is running locally by executing momgosh.exe  in the terminal
-   After setting up the .env file and ensuring MongoDB is running, now run the back end using command 
-   npm start // if nodemomn is installed 
-   or 
-   node server,js
+To make the backend work locally, you need to create a .env file to store sensitive information like the MongoDB connection string, JWT secret key, etc.
+Create a .env file in the root of the backend directory. 
+Inside the .env file, you'll add the necessary environment variables for the backend to connect to the database and handle authentication.
+install mongodb locally and after installing, ensure MongoDB is running locally by executing momgosh.exe  in the terminal
+After setting up the .env file and ensuring MongoDB is running, now run the back end using command 
+npm start // if nodemomn is installed 
+or 
+node server,js
 
    
-  ------Updated setup--------
-  Previously users may have faced db interactivity problems due to local instance varying but that problem can be tackled by upadting the .env file.
+------Updated setup--------
+Previously users may have faced db interactivity problems due to local instance varying but that problem can be tackled by upadting the .env file.
 
- NOTE: If an .env file having environment variables is not created or updated the back end can cause interactivity problems while running the application locally (local instance)
+NOTE: If an .env file having environment variables is not created or updated the back end can cause interactivity problems while running the application locally (local instance)
 
 1) Build a Nodejs project for back-end
 2) Build a React project for front-end using vite 
