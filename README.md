@@ -2,9 +2,9 @@
 
 Setup Backend :  ---------------IMPORTANT--------------------------------
 To get the backend of the project running locally and interact with the database  the steps to be followed are
-a)clone the repository to your local machine
-b)Navigate to the backend directory of the project and install the required dependencies (and npm install)
-c)setting up your environment variables - .env file
+1)clone the repository to your local machine
+2)Navigate to the backend directory of the project and install the required dependencies (and npm install)
+3)setting up your environment variables - .env file
    To make the backend work locally, you need to create a .env file to store sensitive information like the MongoDB connection string, JWT secret key, etc.
    Create a .env file in the root of the backend directory. 
    Inside the .env file, you'll add the necessary environment variables for the backend to connect to the database and handle authentication.
